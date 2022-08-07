@@ -12,13 +12,13 @@
 送信日時 : <?php print date("Y-m-d H:i:s");?>
 @if ( $request->coverDesign == 'originalCover' )
 表紙オリジナルファイル：{{ $request->originalCoverFile }}
-{{ asset('uploadfiles') }}/{{ $request->coverFilePath }}
+{{ asset('uploadfiles') }}/{{ $params['$coverFilePath'] }}
 @else
-表紙デザイン：{{ $request->coverDesign }}                      
+表紙デザイン：{{ $request->coverDesign }}
 @endif
-@if ( $request->contentDesign == 'originalContent' )
+@if ( $request->contentDesign == 'originalContent' ) 
 本文オリジナルファイル：{{ $request->originalContentFile }}
-{{ asset('uploadfiles') }}/{{ $request->contentFilePath }}
+{{ asset('uploadfiles') }}/{{ $params['$contentFilePath'] }}
                                             
 @else
 本文デザイン：{{ $request->contentDesign }}
