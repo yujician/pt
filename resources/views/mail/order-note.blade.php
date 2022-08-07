@@ -14,9 +14,9 @@
 表紙オリジナルファイル：{{ $request->originalCoverFile }}
 {{ asset('uploadfiles') }}/{{ $request->coverFilePath }}
 @else
-表紙デザイン：{{ $request->coverDesign }}
+表紙デザイン：{{ $request->coverDesign }}                      
 @endif
-@if ( $request->contentDesign == 'originalContent' ) 
+@if ( $request->contentDesign == 'originalContent' )
 本文オリジナルファイル：{{ $request->originalContentFile }}
 {{ asset('uploadfiles') }}/{{ $request->contentFilePath }}
                                             
