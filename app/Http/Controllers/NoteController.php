@@ -183,7 +183,7 @@ class NoteController extends Controller
         $orderNote->write_userinfo = $request->writeUserInfo; // お客様情報を新規登録又は上書きするか
         $orderNote->save();
 
-        // dd($request);
+        // dd($orderNote);
 
         // 郵便番号
         $zipcode = $request->o_yubin;
@@ -208,6 +208,8 @@ class NoteController extends Controller
         $params['$quotationPath'] = basename($quotationFile);
         $params['$orderNumber'] = $order_number->id;
         $params['$zipcode'] = $zipcode;
+        $params['$coverFilePath'] = $orderNote->cover_file_path;
+        $params['$contentFilePath'] = $orderNote->content_file_path;
         
         Mail::send(new OrderNoteMail($request, $params));
         return view('contents.thanks-ordernote');
