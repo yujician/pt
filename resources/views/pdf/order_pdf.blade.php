@@ -228,22 +228,22 @@
           @else
             <tr><td class="order-width" style="line-height:1.1;"></td>
           @endif
-                                                                      <td style="font-size:1.1rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;株式会社福田印刷</td></tr>
+                                                                      <td style="font-size:1.1rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ジャスミン舎　株式会社</td></tr>
             <tr><td class="order-width" style="line-height:1.2;font-size:0.85rem;border-bottom:1px solid;width:55%;padding-top:0.6rem;">
                         下記のとおり、御見積書（兼請求書）送付致します。</td>
-                    <td style="font-size:1rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;代表取締役　福田　義信</td></tr>
+                    <td style="font-size:1rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;代表取締役　鷲見　祐司</td></tr>
             <tr><td class="order-width" style="line-height:1;font-family:ipagp;font-size:0.85rem;padding-top:0.6rem;">
                         ご注意&nbsp;&nbsp;この御見積書（兼請求書）は入金を催促するものでは</td>
                     <td style="line-height:1.1;font-size:0.85rem;padding-top:0.6rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        〒800-0037</td></tr>
+                        〒493-0000</td></tr>
             <tr><td class="order-width" style="line-height:1;font-family:ipagp;font-size:0.85rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         有りません。&nbsp;内容に納得され入稿される時点でご入金</td>
                     <td style="line-height:1.1;font-size:0.85rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        北九州市門司区原町別院3番5号</td></tr>
+                        愛知県一宮市〇〇〇〇〇〇</td></tr>
             <tr><td class="order-width" style="line-height:1;font-family:ipagp;font-size:0.85rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         頂くための書類です。その他ご不明な点が有りましたら</td>
                     <td style="line-height:1.1;font-size:0.8rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        TEL&nbsp;093-371-5735&nbsp;&nbsp;FAX&nbsp;093-371-5735</td></tr>
+                        TEL&nbsp;090-000-1111&nbsp;&nbsp;FAX&nbsp;090-000-1112</td></tr>
             <tr><td class="order-width" style="line-height:1;font-family:ipagp;font-size:0.85rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         お問い合わせ下さい。</td><td style="line-height:1.1;font-size:0.8rem;"></td></tr>
           </table>
@@ -314,12 +314,12 @@
                     <tr><td class="bank"></td><td class="subtotal to-right" rowspan="2" colspan="2">小&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;計&nbsp;&nbsp;</td>
                         <td class="to-right" rowspan="2" colspan="2">{{ $orderNote->subtotal }}.-&nbsp;</td></tr>
                     <tr><td class="bank" style="padding-bottom:5px;">&nbsp;&nbsp;銀行振込</td></tr>
-                    <tr><td class="bank" style="padding-top:5px;">&nbsp;&nbsp;&nbsp;&nbsp;北九州銀行大里支店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通預金&nbsp;&nbsp;&nbsp;&nbsp;6020624</td><td class="subtotal to-right" rowspan="2" colspan="2">消&nbsp;&nbsp;費&nbsp;&nbsp;税&nbsp;&nbsp;</td>
+                    <tr><td class="bank" style="padding-top:5px;">&nbsp;&nbsp;&nbsp;&nbsp;北九州銀行大里支店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通預金&nbsp;&nbsp;&nbsp;&nbsp;2222222</td><td class="subtotal to-right" rowspan="2" colspan="2">消&nbsp;&nbsp;費&nbsp;&nbsp;税&nbsp;&nbsp;</td>
                         <td class="to-right" rowspan="2" colspan="2">{{ $orderNote->consumption_tax }}.-&nbsp;</td></tr>
-                    <tr><td class="bank">&nbsp;&nbsp;&nbsp;&nbsp;三井住友銀行北九州支店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通預金&nbsp;&nbsp;&nbsp;&nbsp;6777722</td></tr>
-                    <tr><td class="bank" style="padding-bottom:5px;">&nbsp;&nbsp;&nbsp;&nbsp;西日本シティ銀行門司駅前支店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通預金&nbsp;&nbsp;&nbsp;&nbsp;0852592</td><td class="subtotal to-right" rowspan="2" colspan="2">合&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;計&nbsp;&nbsp;</td>
+                    <tr><td class="bank">&nbsp;&nbsp;&nbsp;&nbsp;三井住友銀行北九州支店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通預金&nbsp;&nbsp;&nbsp;&nbsp;0000000</td></tr>
+                    <tr><td class="bank" style="padding-bottom:5px;">&nbsp;&nbsp;&nbsp;&nbsp;西日本シティ銀行門司駅前支店&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普通預金&nbsp;&nbsp;&nbsp;&nbsp;1111111</td><td class="subtotal to-right" rowspan="2" colspan="2">合&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;計&nbsp;&nbsp;</td>
                         <td class="to-right" rowspan="2" colspan="2">{{ $orderNote->total_fee }}.-&nbsp;</td></tr>
-                    <tr><td class="bank" style="margin-top:8px;padding-top:8px;">&nbsp;&nbsp;口座名&nbsp;&nbsp;（株）福田印刷&nbsp;&nbsp;福田義信</td></tr>
+                    <tr><td class="bank" style="margin-top:8px;padding-top:8px;">&nbsp;&nbsp;口座名&nbsp;&nbsp;ジャスミン舎（株）&nbsp;&nbsp;鷲見祐司</td></tr>
                 </table>
             </div>
             {{-- <div class="order-fee"><h3>小　計&nbsp;:&nbsp;&nbsp;{{ $orderNote->subtotal }}円&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
