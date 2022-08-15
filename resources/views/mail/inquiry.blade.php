@@ -18,7 +18,7 @@
 {{ $request->g_contents }}
 
 ----------------------------------------------
-ジャスミン舎　株式会社
+株式会社福田印刷
 
-URL: https://pt.oto2ki.com
-Mail: yujician.sumi@gmail.com
+URL: http://www.jf1.co.jp/index.html
+Mail: jf@jf1.co.jp

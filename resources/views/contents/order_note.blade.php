@@ -762,8 +762,6 @@
           <div class="col-12">
             <div class="text-sm-center mt-6">
               <p class="text-center mt-5"><button type="submit" class="btn calc-btn btn-secondary" id="confirm" value="send" disabled>お見積りを送信</button></p>
-              <label class="form-check-label" for="flexCheckDefault">※上で入力されたメールアドレスへお見積情報を自動送信されますが、サンプルサイトの為、実際には見積依頼はされません。<br>
-              自動メールにて見積依頼書のPDF出力をご覧いただけます。</label>
               {{-- <div class="write-user-info">
                 <input class="form-check-input" type="checkbox" id="writeUserInfo" name="writeUserInfo" value="">
                 <label class="form-check-label" for="flexCheckDefault">新規ユーザー登録をする</label>
@@ -818,7 +816,7 @@
 
     </form>  {{-- ここまでゲスト用のフォーム --}}
   @endauth
-</div>{{--/user-container --}}
+  </div>{{--/user-container --}}
 </section>
 
   {{-- jsファイルはローカルではとりあえずこの場所でOK --}}

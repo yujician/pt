@@ -60,5 +60,6 @@
     <script src="{{ asset('js/datepicker-ja.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
     <script src="{{ asset('js/lightbox.js') }}"></script>
+    
     <!-- Vue.js開発用 https://jp.vuejs.org/v2/guide/installation.html -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>

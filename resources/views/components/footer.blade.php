@@ -29,28 +29,28 @@
       
       <div class="row">
         <div class="col-sm-6 col-lg-3 col-xs-12">
-          <h5 class="section-title-sm font-weight-bold text-white mb-6">ジャスミン舎株式会社</h5>
+          <h5 class="section-title-sm font-weight-bold text-white mb-6">福田印刷株式会社</h5>
           {{-- <h5 class="section-title-sm font-weight-bold text-white mb-6">ジャスミン舎</h5> --}}
-          <p class="mb-4">〒000-0000<br>愛知県一宮市<br>
-            mail : yujician.sumi@gmail.com
+          <p class="mb-4">〒800-0037<br>北九州市門司区原町別院3番5号
+            <br>TEL : 093-371-3231<br>FAX : 093-371-5735<br>mail : jf@jf1.co.jp
           </p>
         </div>
 
         <div class="col-sm-6 col-lg-3 col-xs-12">
           <h5 class="section-title-sm font-weight-bold text-white mb-6">
-            <a href="#">特定商取引法表示</a>
+            <a href="blog-single-left-sidebar.html">特定商取引法表示</a>
           </h5>
         </div>
 
         <div class="col-sm-6 col-lg-3 col-xs-12">
           <h5 class="section-title-sm font-weight-bold text-white mb-6">
-            <a href="#">ご利用案内</a>
+            <a href="blog-single-left-sidebar.html">ご利用案内</a>
           </h5>
         </div>
 
         <div class="col-sm-6 col-lg-3 col-xs-12">
           <h5 class="section-title-sm font-weight-bold text-white mb-6">
-            <a href="#">よくある質問</a>
+            <a href="blog-single-left-sidebar.html">よくある質問</a>
           </h5>
         </div>
       </div>
@@ -91,7 +91,7 @@
     <div class="container">
       <div class="row py-4 align-items-center">
         <div class="col-sm-12 col-xs-12 order-1 order-md-0">
-          <p class="copyright-text"> © <span id="copy-year"></span> <a href="http://www.jf1.co.jp/" target="_blank">Copyright Jasmine-sya Co., Ltd.</a></p>
+          <p class="copyright-text"> © <span id="copy-year"></span> <a href="http://www.jf1.co.jp/" target="_blank">Copyright Fukuda Printing Co., Ltd.</a></p>
           {{-- <p class="copyright-text"> © <span id="copy-year"></span> <a href="#" target="_blank">Copyright Jasmine-sya Co., Ltd.</a></p> --}}
         </div>
       </div>
