@@ -92,25 +92,26 @@
             {"delay":"wait","speed":200,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 
             data-visibility="on"
-            data-x="left"
+            data-x="center"
             data-y="middle"
-            data-hoffset="['10', '40', '15', '30']"
+            data-hoffset="['0', '0', '0', '0']"
             data-voffset="['0', '0', '0', '0']"
-            data-width="['550','500','500','420']"
+            data-width="['550','400','400','420']"
             data-fontsize="['30', '23', '23', '23']"
             data-lineheight="['30', '25', '25', '25']"
-            data-color="#9999CC"
-            data-textAlign="left"
+            data-color="#FFF"
+            data-textAlign="center"
             data-basealign="grid"
-            data-responsive_offset="off"
+            data-responsive_offset="on"
+            data-responsive="on"
             data-type="text"
             data-whitespace="normal"
             style="z-index: 10;">
-            印刷物にはお客様の願いがあります。
+            印刷物にはお客さまの願いがあります。
           </div>
         </li>
 
-        <!-- SLIDE 2  -->
+        <!-- SLIDE 3  -->
         <li data-transition="fade">
           <img src="{{ asset('img/banner/slider-1/img-3.png') }}" alt="Sky" class="rev-slidebg">
           <!-- LAYERS -->
@@ -136,24 +137,25 @@
               {{-- <span class="text-white">つくろう！オリジナルノート</span> --}}
           </div>
           
-          <!-- LAYER NR. 2 -->
-          <div class="tp-caption tp-resizeme"
+            <!-- LAYER NR. 2 -->
+            <div class="tp-caption tp-resizeme"
             data-frames='[{
             "delay":2000,"speed":1300,"frame":"500","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
             {"delay":"wait","speed":200,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 
             data-visibility="on"
-            data-x="left"
+            data-x="center"
             data-y="middle"
-            data-hoffset="['10', '40', '15', '30']"
+            data-hoffset="['0', '0', '0', '0']"
             data-voffset="['0', '0', '0', '0']"
-            data-width="['550','500','500','420']"
+            data-width="['550','400','400','420']"
             data-fontsize="['30', '23', '23', '23']"
             data-lineheight="['30', '25', '25', '25']"
-            data-color="#9999CC"
-            data-textAlign="left"
+            data-color="#FFF"
+            data-textAlign="center"
             data-basealign="grid"
-            data-responsive_offset="off"
+            data-responsive_offset="on"
+            data-responsive="on"
             data-type="text"
             data-whitespace="normal"
             style="z-index: 10;">
@@ -167,13 +169,13 @@
           <!-- LAYERS -->
 
           <!-- LAYER NR. 1 -->
-          <div class="tp-caption tp-resizeme font-dosis font-weight-bold"
+          <div class="tp-caption tp-resizeme"
             data-frames='[{
             "delay":1600,"speed":1000,"frame":"500","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
             {"delay":"wait","speed":200,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 
             data-visibility="on"
-            data-x="center"
+            data-x="left"
             data-y="middle"
             data-hoffset="['0', '0', '0', '0']"
             data-voffset="['-75', '-75', '-65', '-45']"
@@ -194,7 +196,7 @@
               {"delay":"wait","speed":200,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
 
             data-visibility="on"
-            data-x="center"
+            data-x="left"
             data-y="middle"
             data-hoffset="['0', '0', '0', '0']"
             data-voffset="['0', '0', '0', '0']"
@@ -211,6 +213,92 @@
             style="z-index: 10;">
             信頼できるプロの校正技術で仕上げます。
           </div>
+        </li>
+        <!-- SLIDE 5  -->
+        <li data-transition="fade">
+          <img src="{{ asset('img/banner/slider-1/img-5.png') }}" alt="Sky" class="rev-slidebg">
+          <!-- LAYERS-->
+
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption tp-resizeme font-dosis font-weight-bold"
+            data-frames='[{
+            "delay":1600,"speed":1000,"frame":"500","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
+            {"delay":"wait","speed":200,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+
+            data-visibility="on"
+            data-x="center"
+            data-y="middle"
+            data-hoffset="['0', '0', '0', '0']"
+            data-voffset="['-75', '-75', '-65', '-45']"
+            data-fontsize="['50', '45', '40', '30']"
+            data-lineheight="['50', '45', '40', '30']"
+            data-color="#FFF"
+            data-width="auto"
+            data-basealign="grid"
+            data-responsive_offset="off"
+            style="z-index: 1;">
+              {{-- つくろう！ <span class="text-white">オリジナルノート</span> --}}
+          </div>
+        </li>
+
+        <!-- SLIDE 6  -->
+        <li data-transition="fade">
+          <img src="{{ asset('img/banner/slider-1/img-6.png') }}" alt="Sky" class="rev-slidebg">
+          <!-- LAYERS -->
+          
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption tp-resizeme font-dosis font-weight-bold"
+            data-frames='[{
+              "delay":1600,"speed":1000,"frame":"500","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
+              {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+
+            data-visibility="on"
+            data-x="left"
+            data-y="middle"
+            data-hoffset="['10', '40', '15', '30']"
+            data-voffset="['-75', '-75', '-65', '-45']"
+            data-fontsize="['50', '45', '40', '30']"
+            data-lineheight="['50', '45', '40', '30']"
+            data-color="#FFF"
+            data-width="auto"
+            data-basealign="grid"
+            data-responsive_offset="off"
+            style="z-index: 1;">
+              {{-- <span class="text-white">つくろう！オリジナルノート</span> --}}
+          </div>
+        </li>
+
+        <!-- SLIDE 7  -->
+        <li data-transition="fade">
+          <img src="{{ asset('img/banner/slider-1/img-7.png') }}" alt="Sky" class="rev-slidebg">
+          <!-- LAYERS -->
+          
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption tp-resizeme font-dosis font-weight-bold"
+            data-frames='[{
+              "delay":1600,"speed":1000,"frame":"500","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
+              {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+
+            data-visibility="on"
+            data-x="left"
+            data-y="middle"
+            data-hoffset="['10', '40', '15', '30']"
+            data-voffset="['-75', '-75', '-65', '-45']"
+            data-fontsize="['50', '45', '40', '30']"
+            data-lineheight="['50', '45', '40', '30']"
+            data-color="#FFF"
+            data-width="auto"
+            data-basealign="grid"
+            data-responsive_offset="off"
+            style="z-index: 1;">
+              {{-- <span class="text-white">つくろう！オリジナルノート</span> --}}
+          </div>
+        </li>
+
+        <!-- SLIDE 8  -->
+        <li data-transition="fade">
+          <img src="{{ asset('img/banner/slider-1/img-8.png') }}" alt="Sky" class="rev-slidebg">
+          <!-- LAYERS -->
         </li>
       </ul>
     </div>

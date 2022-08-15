@@ -414,5 +414,4 @@ $('#noteCalcBtn').on('click', function () {
     $(window).scrollTop($('#isKadomaru').position().top);
   }
   });
-
 });

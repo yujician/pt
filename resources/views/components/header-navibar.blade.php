@@ -48,15 +48,15 @@
                     <span class="bg-primary icon-header me-xl-2">
                       <i class="fas fa-envelope" aria-hidden="true"></i>
                     </span>
-                    <a href="mailto:jf@jf1.co.jp" class="me-lg-4 me-xl-6 text-white opacity-80">yujician.sumi@gmail.com</a>
+                    <a href="mailto:jf@jf1.co.jp" class="me-lg-4 me-xl-6 text-white opacity-80">jf@jf1.co.jp</a>
                     {{-- <a href="yujician.sumi@gmail.com" class="me-lg-4 me-xl-6 text-white opacity-80">yujician.sumi@gmail.com</a> --}}
                   </li>
-                  {{-- <li>
+                  <li>
                     <span class="bg-success icon-header me-xl-2">
                       <i class="fas fa-phone-alt" aria-hidden="true"></i>
                     </span>
                     <a href="tel:+1 234 567 8900" class="me-lg-4 me-xl-6 text-white opacity-80"> 093-371-3231 </a>
-                  </li> --}}
+                  </li>
                   <li class="text-white">
                     <span class="bg-pink icon-header">
                       <i class="far fa-clock" aria-hidden="true"></i>
