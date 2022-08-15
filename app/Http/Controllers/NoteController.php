@@ -215,13 +215,13 @@ class NoteController extends Controller
         return view('contents.thanks-ordernote');
         // return $pdf->setOption('encoding', 'utf-8')->inline();
 
-        // $pdf = \PDF::loadView('pdf.order_pdf', [
-        //         'orderNote' => $orderNote,
-        //         'zipcode' => $zipcode,
-        //         'order_number' => $order_number->id
-        //         ]);
-        // $pdf->setPaper('A4');
-        // return $pdf->stream();
+        $pdf = \PDF::loadView('pdf.order_pdf', [
+                'orderNote' => $orderNote,
+                'zipcode' => $zipcode,
+                'order_number' => $order_number->id
+                ]);
+        $pdf->setPaper('A4');
+        return $pdf->stream();
     }
 
     

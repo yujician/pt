@@ -16,8 +16,8 @@
             </div>
             <div class="media-body">
               <h3 class="media-heading text-primary mt-0 font-weight-bold mb-3">Address:</h3>
-              <p class="text-muted font-weight-medium">〒800-0037<br>北九州市門司区原町別院3番5号</p>
-              {{-- <p class="text-muted font-weight-medium">〒000-0000<br>愛知県×××××××××××</p> --}}
+              {{-- <p class="text-muted font-weight-medium">〒800-0037<br>北九州市門司区原町別院3番5号</p> --}}
+              <p class="text-muted font-weight-medium">〒000-0000<br>愛知県×××××××××××</p>
             </div>
           </div>
         </div>
@@ -30,9 +30,9 @@
             <div class="media-body">
               <h3 class="media-heading text-success mt-0 font-weight-bold mb-3">Phone:</h3>
               {{-- <a class="text-muted font-weight-medium" href="tel:093 371 3231"> --}}
-              <a class="text-muted font-weight-medium" href="tel:090 000 0000">
-                093-371-3231<br>Fax:093-371-5735
-                {{-- 090-0000-0000<br>Fax:090-000-0000 --}}
+              <a class="text-muted font-weight-medium" href="#">
+                {{-- 093-371-3231<br>Fax:093-371-5735 --}}
+                090-0000-0000<br>Fax:090-000-0000
               </a>
             </div>
           </div>

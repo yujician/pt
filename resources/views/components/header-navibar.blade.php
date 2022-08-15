@@ -48,20 +48,20 @@
                     <span class="bg-primary icon-header me-xl-2">
                       <i class="fas fa-envelope" aria-hidden="true"></i>
                     </span>
-                    <a href="mailto:jf@jf1.co.jp" class="me-lg-4 me-xl-6 text-white opacity-80">jf@jf1.co.jp</a>
-                    {{-- <a href="yujician.sumi@gmail.com" class="me-lg-4 me-xl-6 text-white opacity-80">yujician.sumi@gmail.com</a> --}}
+                    {{-- <a href="mailto:jf@jf1.co.jp" class="me-lg-4 me-xl-6 text-white opacity-80">jf@jf1.co.jp</a> --}}
+                    <a href="yujician.sumi@gmail.com" class="me-lg-4 me-xl-6 text-white opacity-80">yujician.sumi@gmail.com</a>
                   </li>
                   <li>
                     <span class="bg-success icon-header me-xl-2">
                       <i class="fas fa-phone-alt" aria-hidden="true"></i>
                     </span>
-                    <a href="tel:+1 234 567 8900" class="me-lg-4 me-xl-6 text-white opacity-80"> 093-371-3231 </a>
+                    <a href="tel:+1 234 567 8900" class="me-lg-4 me-xl-6 text-white opacity-80"> 000-0000-0000 </a>
                   </li>
                   <li class="text-white">
                     <span class="bg-pink icon-header">
                       <i class="far fa-clock" aria-hidden="true"></i>
                     </span>
-                    <span class="opacity-80">Open: 9:00 - 17:30（平日）</span>
+                    <span class="opacity-80">Open: 9:00 - 18:00（平日）</span>
                   </li>
                 </ul>
               </div>

@@ -29,10 +29,10 @@
       
       <div class="row">
         <div class="col-sm-6 col-lg-3 col-xs-12">
-          <h5 class="section-title-sm font-weight-bold text-white mb-6">福田印刷株式会社</h5>
-          {{-- <h5 class="section-title-sm font-weight-bold text-white mb-6">ジャスミン舎</h5> --}}
-          <p class="mb-4">〒800-0037<br>北九州市門司区原町別院3番5号
-            <br>TEL : 093-371-3231<br>FAX : 093-371-5735<br>mail : jf@jf1.co.jp
+          {{-- <h5 class="section-title-sm font-weight-bold text-white mb-6">福田印刷株式会社</h5> --}}
+          <h5 class="section-title-sm font-weight-bold text-white mb-6">ジャスミン舎</h5>
+          {{-- <p class="mb-4">〒800-0037<br>北九州市門司区原町別院3番5号
+            <br>TEL : 093-371-3231<br>FAX : 093-371-5735<br>mail : jf@jf1.co.jp --}}
           </p>
         </div>
 
